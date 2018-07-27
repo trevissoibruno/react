@@ -1,0 +1,31 @@
+.Posts{
+    display: flex;
+    height: 100%;
+    padding: 0;
+    background:  black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Posts--content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Posts--item{
+    width: 350px;
+    margin: 20px;
+}
+
+.Posts--empty{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

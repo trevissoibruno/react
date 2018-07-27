@@ -1,0 +1,10 @@
+.PostForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.PostForm--content{
+    min-width: 1000px;
+}
